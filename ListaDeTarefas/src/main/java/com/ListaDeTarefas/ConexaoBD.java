@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnection
+public class ConexaoDB
 {
     private static final Dotenv env = Dotenv.load();
     private static final String URL = env.get("SUPABASE_URL");
