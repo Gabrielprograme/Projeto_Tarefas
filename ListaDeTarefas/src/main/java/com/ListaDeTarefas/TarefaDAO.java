@@ -69,7 +69,7 @@ public class TarefaDAO
         }
         catch (SQLException e)
         {
-            System.err.println("Erro ao atualizar status: " + e.getMessage());
+            System.out.println("Erro ao atualizar status: " + e.getMessage());
         }
     }
 
@@ -105,7 +105,7 @@ public class TarefaDAO
         }
         catch (SQLException e)
         {
-            System.err.println("Erro ao deletar tarefa: " + e.getMessage());
+            System.out.println("Erro ao deletar tarefa: " + e.getMessage());
         }
     }
 }
